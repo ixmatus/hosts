@@ -1,0 +1,6 @@
+#! /usr/bin/env nix-shell
+#! nix-shell -i python3.5 --packages python35 python35Packages.lxml python35Packages.beautifulsoup4
+
+import updateHostsFile
+
+updateHostsFile.main()
